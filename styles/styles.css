@@ -162,6 +162,7 @@ a:hover {
 .small-text p {
   text-align: center;
   font-size: 15px;
+  margin-right: 0 !important;
 }
 
 @media (max-width: 700px) {
@@ -316,5 +317,11 @@ a:hover {
   .social-icons {
     display: flex;
     justify-content: center;
+  }
+
+  .small-text p {
+    font-size: 14px;
+    line-height: 16px;
+    margin-right: 0 !important;
   }
 }
